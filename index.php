@@ -27,6 +27,8 @@
 <body>
 
     <div id="map"></div>
+    <input type='hidden' name='prov_id' id='prov_id' value="<?php echo $_GET['prov_id'];?>">
+
 
     <!-- jQuery JS -->
     <script type="text/javascript" src="assets/js/lib/jquery/dist/jquery.min.js"></script>

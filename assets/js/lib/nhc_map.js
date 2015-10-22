@@ -4,6 +4,7 @@
  * Date: 10/22/15
  * Time: 11:35 AM
  */
+var prov_extent = $.getJSON('http://localhost/nhc_leafletmap/src/jsonp.php?filename=province_extend.json&callback=?', function (data) {console.log(data)});
 
 function initmap() {
 
@@ -16,6 +17,8 @@ function initmap() {
     //BBox Bangkok
     //x_min 	    x_max 	        y_min 	        y_max
     //100.329052521   100.938572013   13.4925449478   13.9552690081
+
+    var prov_id = $('#prov_id');
 
     var southWest = L.latLng(13.4925449478, 100.329052521),
         northEast = L.latLng(13.9552690081, 100.938572013),
