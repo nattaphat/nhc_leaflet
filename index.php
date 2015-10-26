@@ -37,7 +37,7 @@
     <script type="text/javascript" src="assets/js/lib/mapbox.js/mapbox.js"></script>
 
     <!-- Leaflet JS -->
-    <script type="text/javascript" src="assets/js/lib/leaflet/dist/leaflet.js"></script>
+<!--    <script type="text/javascript" src="assets/js/lib/leaflet/dist/leaflet.js"></script>-->
 
     <!-- Site JS -->
     <script src="assets/js/lib/nhc_map.js"></script>
@@ -46,6 +46,7 @@
 
         $(document).ready(function() {
             initmap();
+            overlaySukhothaiProv();
         });
 
     </script>
